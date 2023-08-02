@@ -12,8 +12,10 @@ You can study TypeScript features by each file and compile it to see how it will
 
 ## Running the app
 
-If you want to compile some file, you must add in filename extension ".ts" and run command
+If you want to compile some file run command
 
 ```bash
-$ tsc
+$ tsc -t <EcmaScript version> <filepath/filename.ts>
+
+$ node <filepath/filename.js>
 ```

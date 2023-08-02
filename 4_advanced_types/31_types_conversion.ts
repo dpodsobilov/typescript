@@ -5,7 +5,7 @@ let c: string = '123';
 let d: number = +c;
 // let d: number = parseInt(c);
 
-let e = new String(a);
+let e = new String(a1);
 // error
 // let e: string = new String();
 let e2: string = new String(a1).valueOf();
